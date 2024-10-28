@@ -1,0 +1,124 @@
+body {
+    background-color: #fcfcfc;
+    font-family: Arial, sans-serif;
+}
+
+nav a {
+    margin: 15px;
+    color: #fcfcfc;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    background: whitesmoke;
+    border-radius: 8px;
+}
+
+.quadrado {
+    max-width: 600px;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 30%;
+    margin-top: 7.5%;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #2c3e50;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.galeria img {
+    width: 300px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.galeria img:hover {
+    transform: scale(1.1);
+}
+
+button {
+    background-color: #427fb5;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #4166a2;
+}
+
+h2 {
+    text-align: center;
+}
+
+.psobre {
+    text-align: justify;
+}
+
+.torcamento {
+    text-align: center;
+}
+
+.phome {
+    text-align: center;
+}
+
+.imagemlogo img {
+    width: 300px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.imagemlogo img:hover {
+    transform: scale(1.1);
+}
+
+header {
+    text-align: center;
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+.sobref {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sobref img {
+    width: 300px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.sobref img:hover {
+    transform: scale(1.1);
+}
+
